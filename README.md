@@ -11,3 +11,11 @@ Simulation slow subscriber
 
 The publisher program sent 16 messages, indicating pending consumption. The number increased due to slow customer movement or slower publisher speed. The system processed the messages, indicating proper operation. The figure may vary depending on device speed or message volume.
 
+
+Running at least three subscribers
+![image](https://github.com/user-attachments/assets/be1baf58-de33-4382-9e4d-d812e27de1b0)
+
+![image](https://github.com/user-attachments/assets/0baa47e2-c595-42cf-b570-165ec37bb458)
+when running the RabbitMQ's event-driven system reduces processing time and queue spike by running multiple subscriber instances, distributing messages among them, and allowing parallel handling. This behavior is a core strength of event-driven systems, enabling horizontal scalability and a faster drop in message backlog as subscribers increase.
+
+
